@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.saike47 }}/app
+        tags: ${{ secrets.Saike }}/app
