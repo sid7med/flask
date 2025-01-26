@@ -16,7 +16,7 @@ jobs:
     - name: Log in to Docker Hub
       uses: docker/login-action@v2
       with:
-        username: ${{ secrets.Saike }}
+        username: ${{ secrets.saike47 }}
         password: ${{ secrets.daha4642# }}
 
     - name: Set up Docker Buildx
@@ -27,4 +27,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.Saike }}/app
+        tags: ${{ secrets.saike47 }}/app
